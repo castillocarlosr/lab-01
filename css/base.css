@@ -64,45 +64,48 @@
         height: 600px;
         width: 19%;
         float: left;
+        flex-wrap: wrap;
     }
     
     #c{
         height: 200px;
-        width: 40%;
+        width: 40.1%;
         float: left; 
     }
     #d{
         height: 200px;
-        width: 40%;
+        width: 40.1%;
         float: right; 
         background-color: rgb(255, 0, 0);
     }
     .efgh{
         height: 250px;
-        width: 19.79%; 
+        width: 20.18%; 
+        float: left;
+        flex-wrap: wrap;
+        /* display: inline-block;   */
     }
     #e{
         background-color: rgb(20, 9, 237);
-        float: left;
     }
     #f{
         background-color: rgb(121, 176, 133);
-        float: left;
     }
     #g{
         background-color: rgb(184, 211, 46);
-        float: left;
     }
     #h{
         background-color: rgb(228, 126, 58);
-        float: right;
     }
     .i{
         background-color: rgb(118, 8, 118);
         /* border: 1px solid black; */
         height: 150px;
-        width: 79.16%; 
-        display: block;
-        float: right
+        width: 80%; 
+        /* justify-content: space-evenly; */
+        /* flex-wrap: wrap;  */
+        display: inline-block;   
     }
+   
+      
 }
