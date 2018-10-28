@@ -1,4 +1,4 @@
-/* Mobile */
+/* Mobile! */
 .a{
     background-color: rgb(244, 150, 150);
     border: 1px solid black;
@@ -49,9 +49,52 @@
     width: 100%; 
     clear: both;
 }
+/* Tablets! */
+@media (min-width: 767px){
+    .a{
+        background-color: rgb(215, 119, 3);
+        border: 1px solid black;
+        height: 75px;
+        width: 100%;
+    }
+    .b{
+        background-color: rgb(255, 255, 0);
+        border: 1px solid black;
+        height: 150px;
+        width: 100%; 
+    }
+    
+    #c{
+        height: 200px;
+        width: 49.73%;
+        float: left;
+        background-color: rgb(159, 10, 233); 
+    }
+    #d{
+        height: 200px;
+        width: 49.74%;
+        float: right; 
+        background-color: rgb(61, 12, 142);
+    }
+    #e{
+        background-color: rgb(236, 236, 240);
+    }
+    #f{
+        background-color: rgb(64, 159, 85);
+    }
+    #g{
+        background-color: rgb(3, 70, 16);
+    }
+    #h{
+        background-color: rgb(16, 34, 25);
+    }
+    .i{
+        background-color: rgb(42, 0, 84);
+    }
+}
 
 /* Desktops! */
-@media (min-width: 768px) {
+@media (min-width: 1020px) {
     .a{
         background-color: rgb(11, 10, 10);
         /* border: 1px solid black; */
@@ -101,11 +144,9 @@
         background-color: rgb(118, 8, 118);
         /* border: 1px solid black; */
         height: 150px;
-        width: 80%; 
+        width: 80.6%; 
         /* justify-content: space-evenly; */
         /* flex-wrap: wrap;  */
         display: inline-block;   
-    }
-   
-      
+    }   
 }
